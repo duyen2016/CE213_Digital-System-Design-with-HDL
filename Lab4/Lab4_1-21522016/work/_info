@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CE213-Lab\Lab3\Lab3_2-21522016
+valu
+Z1 !s100 ?4895z_n[T<YmZd47Hb5Y2
+Z2 IE;m^JnA91>Uh80dcW`oYA2
+Z3 V^kEBHBondn_^n2gFgWG=I3
+Z4 dE:\CE213-Lab\Lab4\Lab4_1-21522016
+Z5 w1698039072
+Z6 8E:/CE213-Lab/Lab4/Lab4_1-21522016/alu.v
+Z7 FE:/CE213-Lab/Lab4/Lab4_1-21522016/alu.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab4/Lab4_1-21522016/alu.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1698046589.305000
+Z12 !s107 E:/CE213-Lab/Lab4/Lab4_1-21522016/alu.v|
+!s101 -O0
+valu_testbench
+!i10b 1
+!s100 0hB0BcZB:gWLjV;[ZWEP?3
+IATMzDJi2=ch[:]jVfK]m53
+Z13 VN^B;K=YF1jHT`KC`UlBP_1
+R4
+w1698046583
+Z14 8E:/CE213-Lab/Lab4/Lab4_1-21522016/alu_testbench.v
+Z15 FE:/CE213-Lab/Lab4/Lab4_1-21522016/alu_testbench.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1698046589.395000
+!s107 E:/CE213-Lab/Lab4/Lab4_1-21522016/alu_testbench.v|
+Z16 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab4/Lab4_1-21522016/alu_testbench.v|
+!s101 -O0
+R10

@@ -1,0 +1,15 @@
+E:/CE213-Lab/Lab2/Lab2_1-21522016/moore.v {1 {vlog -work work E:/CE213-Lab/Lab2/Lab2_1-21522016/moore.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fsm_moore
+
+Top level modules:
+	fsm_moore
+
+} {} {}} E:/CE213-Lab/Lab2/Lab2_1-21522016/moore_tb.v {1 {vlog -work work E:/CE213-Lab/Lab2/Lab2_1-21522016/moore_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module moore_tb
+
+Top level modules:
+	moore_tb
+
+} {} {}}

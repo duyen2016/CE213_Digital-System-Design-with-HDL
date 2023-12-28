@@ -1,0 +1,158 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CE213-Lab\Lab4\Lab4_1-21522016
+valu
+Z1 !s100 mERdG8oi6PYX9DPWn=Daf3
+Z2 I]c7i<3<KS`]72OJ@15ZlN2
+Z3 VlUClS]93CVC3_JjeWmmFi3
+Z4 dE:\CE213-Lab\Lab5-21522016
+Z5 w1698983028
+Z6 8E:\CE213-Lab\Lab5-21522016\alu.v
+Z7 FE:\CE213-Lab\Lab5-21522016\alu.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab5-21522016\alu.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1699011421.822000
+Z12 !s107 E:\CE213-Lab\Lab5-21522016\alu.v|
+!s101 -O0
+vdatapath
+Z13 !s100 OW8^UZ;U2`2JoZ3_ec<<c0
+Z14 I=0d]5;JXi4m>R3`jk<fXQ2
+Z15 VQz@<NZT>hMP5<eU[ZbLR11
+R4
+Z16 w1699008322
+Z17 8E:\CE213-Lab\Lab5-21522016\datapath.v
+Z18 FE:\CE213-Lab\Lab5-21522016\datapath.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab5-21522016\datapath.v|
+R10
+Z20 !s108 1699011419.886000
+Z21 !s107 E:\CE213-Lab\Lab5-21522016\datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath_tb
+Z22 !s100 LcjF1TPf?APQI_IeFFbCz3
+Z23 I=>b0OaD31VU7eVi[`B`EF3
+Z24 VEWO?_?OX`2EgcWCd@z7jn1
+R4
+Z25 w1699010913
+Z26 8E:\CE213-Lab\Lab5-21522016\datapath_tb.v
+Z27 FE:\CE213-Lab\Lab5-21522016\datapath_tb.v
+L0 5
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab5-21522016\datapath_tb.v|
+R10
+Z29 !s108 1699011419.949000
+Z30 !s107 E:\CE213-Lab\Lab5-21522016\datapath_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux
+Z31 !s100 VXe20m0:7Ac4CG1E6eV`Y0
+Z32 If0@P;<NFEkG@K=aZEST[Z3
+Z33 Vhk;O2JaJG6OlG0GhOd8S]0
+R4
+Z34 w1699004908
+Z35 8E:\CE213-Lab\Lab4\Lab4_2-21522016\mux.v
+Z36 FE:\CE213-Lab\Lab4\Lab4_2-21522016\mux.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab4\Lab4_2-21522016\mux.v|
+R10
+Z38 !s108 1699011421.625000
+Z39 !s107 E:\CE213-Lab\Lab4\Lab4_2-21522016\mux.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux5bit
+Z40 !s100 h[6Vj@k7ZQB0c]YccN4hm2
+Z41 Iz]cQiddaX_3fDUg_EI_;i1
+Z42 V5<fNKE6EF``9hYPH`IL[e2
+R4
+Z43 w1698045203
+Z44 8E:\CE213-Lab\Lab5-21522016\mux_5bit.v
+Z45 FE:\CE213-Lab\Lab5-21522016\mux_5bit.v
+L0 1
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab5-21522016\mux_5bit.v|
+R10
+Z47 !s108 1699011421.682000
+Z48 !s107 E:\CE213-Lab\Lab5-21522016\mux_5bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z49 IVaJ=CL:40^Po2e]kLg3l43
+Z50 VY339kY8IiZHK9SAZbVgjN0
+R4
+Z51 w1699011421
+Z52 8E:\CE213-Lab\Lab1_2-21522016\reg_file.v
+Z53 FE:\CE213-Lab\Lab1_2-21522016\reg_file.v
+L0 1
+R8
+r1
+31
+Z54 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab1_2-21522016\reg_file.v|
+R10
+Z55 !s100 R2bHAXoDf8mATaWZdoHhJ1
+Z56 !s108 1699011421.572000
+Z57 !s107 E:\CE213-Lab\Lab1_2-21522016\reg_file.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSignExtend
+Z58 !s100 HdKe4P3A740JSVW=37=FP1
+Z59 IF]DPJBo4^cK;iD0Q3gj[c0
+Z60 VeE4`S3Nok6WEYQBhH`z?:3
+R4
+Z61 w1698050322
+Z62 8E:\CE213-Lab\Lab5-21522016\SignExtend.v
+Z63 FE:\CE213-Lab\Lab5-21522016\SignExtend.v
+L0 1
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|E:\CE213-Lab\Lab5-21522016\SignExtend.v|
+R10
+Z65 n@sign@extend
+Z66 !s108 1699011421.747000
+Z67 !s107 E:\CE213-Lab\Lab5-21522016\SignExtend.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsram
+!i10b 1
+Z68 !s100 _E5STHQAiA^0QdNAfkm791
+Z69 ICi=>1i2N7W^0CK2dLA;bM0
+Z70 VW:^MGZd7@n=CVL[ldOVRR1
+R4
+Z71 w1699009500
+Z72 8E:/CE213-Lab/Lab5-21522016/sram.v
+Z73 FE:/CE213-Lab/Lab5-21522016/sram.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1699011421.899000
+!s107 E:/CE213-Lab/Lab5-21522016/sram.v|
+Z74 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab5-21522016/sram.v|
+!s101 -O0
+R10

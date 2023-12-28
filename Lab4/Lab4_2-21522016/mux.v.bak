@@ -1,0 +1,6 @@
+module mux(sel, a, b, s);
+  input sel;
+  input [31:0] a, b;
+  output [31:0] s;
+    assign s = (sel) ? b : a;
+endmodule

@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CE213-Lab\Lab3\Lab3_2-21522016
+vmux
+Z1 !s100 4m_5O;59P?D<Vid1_BVL:0
+Z2 IgVIWheSFk9NoiRE1=AP;^2
+Z3 Vhk;O2JaJG6OlG0GhOd8S]0
+Z4 dE:\CE213-Lab\Lab4\Lab4_2-21522016
+Z5 w1696853665
+Z6 8E:/CE213-Lab/Lab4/Lab4_2-21522016/mux.v
+Z7 FE:/CE213-Lab/Lab4/Lab4_2-21522016/mux.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab4/Lab4_2-21522016/mux.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1696854062.944000
+Z12 !s107 E:/CE213-Lab/Lab4/Lab4_2-21522016/mux.v|
+!s101 -O0
+vmux_tb
+!i10b 1
+!s100 WbW;K9;?V_l8;nzlc1fo90
+I@Mkn4PWGmmH`BG[8RgD9>2
+Z13 VoZY_To73>inM`PBjOR7lG2
+R4
+w1696854058
+Z14 8E:/CE213-Lab/Lab4/Lab4_2-21522016/mux_tb.v
+Z15 FE:/CE213-Lab/Lab4/Lab4_2-21522016/mux_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1696854063.070000
+!s107 E:/CE213-Lab/Lab4/Lab4_2-21522016/mux_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab4/Lab4_2-21522016/mux_tb.v|
+!s101 -O0
+R10

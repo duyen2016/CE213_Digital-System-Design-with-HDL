@@ -1,0 +1,23 @@
+module datapath(inst, RegDst, RegWrite, ALUSrc, ALUcontrol, MemWrite, MemRead, MemToReg, clk, ReadAddress1, ReadData1);
+  input [31:0] inst;
+  input [4:0] ReadAddress1;
+  output [31:0] ReadData1;
+  input RegDst, RegWrite, ALUSrc, MemWrite, MemRead, MemToReg, clk;
+  input [3:0] ALUcontrol;
+  wire [4:0] t1, t2, t3, m1;
+  wire [15:0] t5;
+  wire [31:0] d1, d2, s1, m2, d3, d4, m3;
+  wire z;
+  assign t1 = inst[25: 21];
+  assign t2 = inst[20:16];
+  assign t3 = inst[15:11];
+  assign t5 = inst[15:0];
+  mux5bit f0(RegDst, t2, t3, m1);
+  SignExtend f1(t5, s1);
+  regfile f2(.WriteData(m3), .WriteAddress(m1), .ReadWriteEn(RegWrite), .ReadAddress1(t1), .ReadAddress2(t2), .ReadData1(d1), .ReadData2(d2), .Clk(clk));
+  mux f3(ALUSrc, d2, s1, m2);
+  alu f4(.Op1(d1), .Op2(m2), .ALUcontrol(ALUcontrol), .ALUresult(d3), .isZero(z));
+  sram f5(.clk(clk), .Address(d3), .WriteData(d2), .ReadData(d4), .WriteEn(MemWrite), .ReadEn(MemRead));
+  mux f6(MemToReg, d3, d4, m3);
+  
+endmodule

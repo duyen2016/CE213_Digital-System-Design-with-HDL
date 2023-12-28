@@ -1,0 +1,8 @@
+E:/CE213-Lab/Lab4/Lab4_1-21522016/alu.v {1 {vlog -work work E:/CE213-Lab/Lab4/Lab4_1-21522016/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

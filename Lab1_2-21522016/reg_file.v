@@ -1,0 +1,18 @@
+module regfile(WriteData, WriteAddress, RegWriteEn, ReadAddress1,
+ ReadAddress2, ReadData1, ReadData2, Clk);
+  input [31:0] WriteData;
+  output [31:0] ReadData1, ReadData2;
+  input [4:0] WriteAddress, ReadAddress1, ReadAddress2;
+  input RegWriteEn, Clk;
+  reg [31:0] ReadData1, ReadData2;
+  reg [31:0] register [31:0];
+  
+  always @(*) begin
+    ReadData1 = register[ReadAddress1];
+    ReadData2 = register[ReadAddress2];
+  end    
+  always @(posedge Clk) begin
+    if (RegWriteEn)
+    register[WriteAddress] <= WriteData;  
+  end
+endmodule

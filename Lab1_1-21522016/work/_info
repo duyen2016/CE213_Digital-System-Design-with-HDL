@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CE213-Lab\Lab1_2-21522016
+vcounter
+Z1 !s100 E]iFRQQmZ=NJBXIAj>KI]3
+Z2 ILmSW[UXnh[30aGPNR08fg3
+Z3 VB74EQ?YiG?nmkETeHIJ8b3
+Z4 dE:\CE213-Lab\Lab1_1-21522016
+Z5 w1695714010
+Z6 8E:/CE213-Lab/Lab1_1-21522016/counter.v
+Z7 FE:/CE213-Lab/Lab1_1-21522016/counter.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab1_1-21522016/counter.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1695714500.653000
+Z12 !s107 E:/CE213-Lab/Lab1_1-21522016/counter.v|
+!s101 -O0
+vcounter_testbench
+!i10b 1
+!s100 CLaT`PG6L=DjjJIj21m813
+I<?OYjI6F7AfBf]CI>`=?:3
+Z13 V[OV^aOXbRCG]:MG2_jdAj2
+R4
+w1695714496
+Z14 8E:/Verilog/Verilog/counter/counter_tb.v
+Z15 FE:/Verilog/Verilog/counter/counter_tb.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1695714500.699000
+!s107 E:/Verilog/Verilog/counter/counter_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|E:/Verilog/Verilog/counter/counter_tb.v|
+!s101 -O0
+R10

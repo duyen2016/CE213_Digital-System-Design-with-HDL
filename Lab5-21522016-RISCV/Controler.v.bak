@@ -1,0 +1,60 @@
+module controller(inst, ImmSel, RegWEn, Bsel, ALUSel, MemRW, WBSel);
+  input [31:0] inst;
+  output reg [1:0] ImmSel;
+  output reg RegWEn, Bsel, MemRW, WBSel;
+  output reg [3:0] ALUSel;
+  reg [6:0] opcode, funct7;
+  reg [2:0] funct3;
+  assign opcode = inst[6:0];
+  assign funct7 = inst[31:25];
+  assign funct3 = inst[14:12];
+  always @(*) begin
+    case (opcode)
+      7'b0110011: //add
+        if ((funct3 == 3'b0) && (funct7 == 7'b0)) begin
+          ImmSel = 2'bx;
+          RegWEn = 1'b1;
+          Bsel = 1'b0;
+          ALUSel = 4'b0010;
+          MemRW = 1'bx;
+          WBSel = 1'b1;  
+          end
+      7'b0000011: //lw
+        if (funct3 == 3'b010) begin
+          ImmSel = 2'b00;
+          RegWEn = 1'b1;
+          Bsel = 1'b1;
+          ALUSel = 4'b0010;
+          MemRW = 1'b1;
+          WBSel = 1'b0;
+          end
+      7'b0100011: //sw
+        if (funct3 == 3'b010) begin
+          ImmSel = 2'b01;
+          RegWEn = 1'b0;
+          Bsel = 1'b1;
+          ALUSel = 4'b0010;
+          MemRW = 1'b0;
+          WBSel = 1'bx;
+          end
+      7'b0010011: //addi
+        if (funct3 == 3'b000) begin
+          ImmSel = 2'b00;
+          RegWEn = 1'b1;
+          Bsel = 1'b1;
+          ALUSel = 4'b0010;
+          MemRW = 1'bx;
+          WBSel = 1'b1;
+          end
+      7'b0110111: //lui
+        begin
+          ImmSel = 2'b10;
+          RegWEn = 1'b1;
+          Bsel = 1'b1;
+          ALUSel = 4'b0011;
+          MemRW = 1'bx;
+          WBSel = 1'b1;
+          end
+      endcase
+  end
+endmodule

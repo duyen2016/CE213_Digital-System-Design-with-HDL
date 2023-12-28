@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Verilog\adder
+vfsm_moore
+Z1 !s100 UGK7[MHTdP>:6`lG`SScK1
+Z2 IzCX0i7n8`jCl56E4fiJCY1
+Z3 V=zC7KC0371dgSI[J[WbWe2
+Z4 dE:\CE213-Lab\Lab2\Lab2_1-21522016
+Z5 w1698047510
+Z6 8E:/CE213-Lab/Lab2/Lab2_1-21522016/moore.v
+Z7 FE:/CE213-Lab/Lab2/Lab2_1-21522016/moore.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab2/Lab2_1-21522016/moore.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1698047971.002000
+Z12 !s107 E:/CE213-Lab/Lab2/Lab2_1-21522016/moore.v|
+!s101 -O0
+vmoore_tb
+!i10b 1
+!s100 2]c[3@YTj4OH3kHEdE7?T0
+I1fa4IYnXH>Ia[O=fQT00n2
+Z13 VD0zPCz``GEDK1UeZdQF`40
+R4
+w1698047965
+Z14 8E:/CE213-Lab/Lab2/Lab2_1-21522016/moore_tb.v
+Z15 FE:/CE213-Lab/Lab2/Lab2_1-21522016/moore_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1698047971.121000
+!s107 E:/CE213-Lab/Lab2/Lab2_1-21522016/moore_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab2/Lab2_1-21522016/moore_tb.v|
+!s101 -O0
+R10

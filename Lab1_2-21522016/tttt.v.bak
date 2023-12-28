@@ -1,0 +1,44 @@
+module counter (clk, pre, clr, D, Q);
+input clk;
+input [2:0] pre, clr, D;
+output reg [2:0] Q;
+ttkt tt(Q, D);
+dff d2(clk, pre[2], clr[2], D[2], Q[2]);
+dff d1(clk, pre[1], clr[1], D[1], Q[1]);
+dff d0(clk, pre[0], clr[0], D[0], Q[0]);
+endmodule
+
+module dff (clk, pre, clr, D, Q);
+input D, pre, clr, clk;
+output reg Q;
+always @(posedge clk or negedge clr or negedge pre)
+begin
+if (~clr)	
+Q <= 0;
+else if (~pre)
+Q <= 1;
+else
+Q <= D;
+end
+endmodule
+
+module ttkt (Q, D);
+input [2:0] Q;
+output [2:0] D;
+wire [2:0] A, B;
+
+not a2(A[2], Q[2]);
+not a1(A[1], Q[1]);
+not a0(A[0], Q[0]);
+
+and b5(B[5], A[2], A[1]);
+and b4(B[4], A[2], A[0]);
+and b3(B[3], Q[2], Q[0]);
+and b2(B[2], A[2], Q[1], A[0]);
+and b1(B[1], Q[2], A[1], A[0]);
+and b0(B[0], Q[2], Q[1], Q[0]);
+
+or c1(D[2], B[5], A[0]);
+or c2(D[1], A[1], B[4], B[3]);
+or c3(D[0], B[2], B[1], B[0]); 
+endmodule

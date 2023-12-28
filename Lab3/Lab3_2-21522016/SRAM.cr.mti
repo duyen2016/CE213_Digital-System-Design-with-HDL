@@ -1,0 +1,8 @@
+E:/CE213-Lab/Lab3/Lab3_2-21522016/sram_tb.v {1 {vlog -work work E:/CE213-Lab/Lab3/Lab3_2-21522016/sram_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sram_tb
+
+Top level modules:
+	sram_tb
+
+} {} {}}

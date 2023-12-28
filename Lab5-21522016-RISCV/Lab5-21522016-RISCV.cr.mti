@@ -1,0 +1,85 @@
+E:/CE213-Lab/Lab5-21522016-RISCV/Datapath.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/Imem.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/Imem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} E:/CE213-Lab/Lab5-21522016/datapath_tb.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016/datapath_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} E:/CE213-Lab/Lab5-21522016/mux_5bit.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016/mux_5bit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux5bit
+
+Top level modules:
+	mux5bit
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/Dmem.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/Dmem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/procs_tb.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/procs_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module processor_testbench
+
+Top level modules:
+	processor_testbench
+
+} {} {}} E:/CE213-Lab/Lab1_2-21522016/reg_file.v {1 {vlog -work work E:/CE213-Lab/Lab1_2-21522016/reg_file.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/Prsor.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/Prsor.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} E:/CE213-Lab/Lab4/Lab4_2-21522016/mux.v {1 {vlog -work work E:/CE213-Lab/Lab4/Lab4_2-21522016/mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/Controler.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/Controler.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/ALU.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/CE213-Lab/Lab5-21522016-RISCV/ImmGen.v {1 {vlog -work work E:/CE213-Lab/Lab5-21522016-RISCV/ImmGen.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module immgen
+
+Top level modules:
+	immgen
+
+} {} {}}

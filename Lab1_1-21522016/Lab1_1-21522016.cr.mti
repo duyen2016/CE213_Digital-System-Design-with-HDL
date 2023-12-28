@@ -1,0 +1,15 @@
+E:/Verilog/Verilog/counter/counter_tb.v {1 {vlog -work work E:/Verilog/Verilog/counter/counter_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_testbench
+
+Top level modules:
+	counter_testbench
+
+} {} {}} E:/CE213-Lab/Lab1_1-21522016/counter.v {1 {vlog -work work E:/CE213-Lab/Lab1_1-21522016/counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

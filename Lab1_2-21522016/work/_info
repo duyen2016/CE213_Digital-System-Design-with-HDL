@@ -1,0 +1,177 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Verilog\Verilog\counter
+vcounter
+Z1 !s100 n04zHI8EL24dBh@F>a?4W0
+Z2 IR7`fE<I7:YN`GF:;3OTde3
+Z3 VKVPH<V<5cX6[;Eld6d9Qh1
+Z4 dE:\CE213-Lab\Lab1_2-21522016
+Z5 w1695653747
+Z6 8E:/CE213-Lab/Lab1_2-21522016/tttt.v
+Z7 FE:/CE213-Lab/Lab1_2-21522016/tttt.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1695653751.724000
+Z10 !s107 E:/CE213-Lab/Lab1_2-21522016/tttt.v|
+Z11 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab1_2-21522016/tttt.v|
+Z12 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vD_FF
+Z13 !s100 h8DicO6^HcbYEbKm<^54C3
+Z14 IZlXR0ba^76`Qi_5zRKEB70
+Z15 VV=4]RDfIB=PMcZXaCbFHK1
+R4
+Z16 w1695695780
+Z17 8E:/CE213-Lab/Lab1_2-21522016/reg_file.v
+Z18 FE:/CE213-Lab/Lab1_2-21522016/reg_file.v
+L0 1
+R8
+r1
+31
+Z19 !s108 1695695782.910000
+Z20 !s107 E:/CE213-Lab/Lab1_2-21522016/reg_file.v|
+Z21 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab1_2-21522016/reg_file.v|
+R12
+Z22 n@d_@f@f
+!i10b 1
+!s85 0
+!s101 -O0
+vdecode_5_32
+Z23 !s100 n0P<5A?EzEJcjZ@]NKMfg2
+Z24 I9ZO<3Egb`g4R>7`ahXIKE3
+Z25 Vo1@aKF>AfRAhULcaFb<`52
+R4
+R16
+R17
+R18
+L0 30
+R8
+r1
+31
+R19
+R20
+R21
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vdff
+Z26 !s100 03CdRP5>[4zZiOaDQV8iz0
+Z27 IBYja0n4k6i_lCGJSg39g20
+Z28 VWhdT^@QCXa<;NlcDgSCmh1
+R4
+R5
+R6
+R7
+L0 11
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2_16bits
+Z29 !s100 BQeASnMcT<<=?;jHA^Ibf0
+Z30 IAEJ^dZ[ZPCEY]mWA41E5M1
+Z31 VW:6:ZPUz>dhKH9h?ADVSb0
+R4
+R16
+R17
+R18
+L0 12
+R8
+r1
+31
+R19
+R20
+R21
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vreg_16bit
+Z32 !s100 2b;00[WD;Y^aof@QPb_jM2
+Z33 IPga[KTVK@gMdYfVN<0Yim2
+Z34 VFJiM^:cUz:QG_@Znjf>Vc1
+R4
+R16
+R17
+R18
+L0 19
+R8
+r1
+31
+R19
+R20
+R21
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z35 !s100 IigIS5cY=X=_7@V9R[neT2
+Z36 IChUGbNT>k[=`XajQ0W]ZE2
+Z37 VY339kY8IiZHK9SAZbVgjN0
+R4
+Z38 w1695702737
+R17
+R18
+L0 2
+R8
+r1
+31
+R21
+R12
+!i10b 1
+!s85 0
+Z39 !s108 1695737853.684000
+R20
+!s101 -O0
+vregfile_tb
+!i10b 1
+!s100 `6NG@7]mK=B?]>b_kR7^c3
+I8_0bN1dEO`@4A_HMGMl4U2
+Z40 V]V^jAl7HVjn;3YfVo]HWL3
+R4
+w1695736097
+Z41 8E:/CE213-Lab/Lab1_2-21522016/regfile_tb.v
+Z42 FE:/CE213-Lab/Lab1_2-21522016/regfile_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1695737853.769000
+!s107 E:/CE213-Lab/Lab1_2-21522016/regfile_tb.v|
+Z43 !s90 -reportprogress|300|-work|work|E:/CE213-Lab/Lab1_2-21522016/regfile_tb.v|
+!s101 -O0
+R12
+vttkt
+Z44 IVTegV0fR_7=Q1@BG85e]o2
+Z45 Vh`N?al[FWlgc34IS3aOPh1
+R4
+R5
+R6
+R7
+L0 25
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z46 !s100 Y:Y;;I8>=cNok]Z0@74:d2
+!i10b 1
+!s85 0
+!s101 -O0
